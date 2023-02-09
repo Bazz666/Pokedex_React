@@ -1,0 +1,47 @@
+:root {
+  --menu-border-color: #4895ef;
+  --background-color: #ffffeb;
+  --text-color: black;
+  --active:#d62828;
+  --menu-text-color: #f72585;
+  --menu-text-hover-color: #4cc9f0;
+  --button-background-color: #ff80ba;
+  --button-background-color-hover: #8dafff;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --menu-border-color: #4895ef;
+    --background-color: #ffffeb;
+    --text-color: black;
+    --active:#d62828;
+    --menu-text-color: #f72585;
+    --menu-text-hover-color: #ff80ba;
+    --button-background-color: #ff80ba;
+    --button-background-color-hover: #ff80ba;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app{
+ 
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d62828;
+}
+
